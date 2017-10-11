@@ -1,0 +1,15 @@
+{
+  "name": "dashdashzako-ui",
+  "theme": "ui",
+  "version": "1.0.0",
+  "description": "dashdashzako UI theme inspired by base16 eighties",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "repository": "https://github.com/atom-community/ui-theme-template",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
