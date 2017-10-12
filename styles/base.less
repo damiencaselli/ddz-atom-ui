@@ -7,6 +7,23 @@
 
 // -------------------
 
+::-webkit-scrollbar {
+  background: transparent;
+  width: 14px;
+
+  &-corner { /* this is where the horizontal and the vertical scrollbar overlap, you probably don't need this */ }
+
+  &-thumb {
+    background-color: @button-background-color;
+    border: 3px solid @app-background-color;
+    border-radius: 6px;
+    transition: all 2500ms linear;
+
+    &:hover {
+      background-color: @button-background-color-hover;
+    }
+  }
+}
 
 body {
   font-size: @font-size;
