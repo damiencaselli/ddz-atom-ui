@@ -7,20 +7,30 @@
 
 // -------------------
 
-::-webkit-scrollbar {
-  background: transparent;
-  width: 12px;
+.scrollbars-visible-always /deep/ {
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-corner {
+    background-color: @button-border-color;
+  }
 
-  &-thumb {
-    background-color: @button-background-color;
+  ::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+  }
+
+  ::-webkit-scrollbar-thumb {
     border-radius: 0;
-    transition: all 2500ms linear;
+    border: 0;
+    background-color: @button-background-color;
+    background-clip: content-box;
 
     &:hover {
       background-color: @button-background-color-hover;
     }
   }
 }
+
+// =============================
 
 body {
   font-size: @font-size;
