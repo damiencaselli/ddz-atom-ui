@@ -13,7 +13,7 @@
 
 // Text Colors
 @text-color:           #747369;
-@text-color-subtle:    #515151;
+@text-color-subtle:    #6a6a6a;
 @text-color-highlight: #ffffff;
 @text-color-selected:  #e8e6df;
 
@@ -29,7 +29,7 @@
 @background-color-error:   hsl(0,    70%, 50%);
 
 @background-color-highlight: #575951;
-@background-color-selected:  #2d2d2d;
+@background-color-selected:  lighten(@base-background-color, 10%);
 @app-background-color:       @base-background-color;
 
 // Base colors
@@ -40,7 +40,7 @@
 @pane-item-background-color: @base-background-color;
 @pane-item-border-color:     @base-border-color;
 
-@input-background-color: @app-background-color;
+@input-background-color: lighten(@base-background-color, 3%);
 @input-border-color:     @base-border-color;
 
 @tool-panel-background-color: @base-background-color;
@@ -63,7 +63,7 @@
 @tab-bar-background-color:    @base-border-color;
 @tab-bar-border-color:        @base-border-color;
 @tab-background-color:        @tab-bar-background-color;
-@tab-background-color-active: @background-color-selected;
+@tab-background-color-active: @base-background-color;
 @tab-border-color:            @base-border-color;
 
 @tree-view-background-color: #262626;
