@@ -5,9 +5,11 @@
   "description": "dashdashzako UI theme inspired by base16 eighties",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "base16",
+    "dark"
   ],
-  "repository": "https://github.com/damiencaselli/ddz-atom-ui",
+  "repository": "https://github.com/dashdashzako/ddz-atom-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
